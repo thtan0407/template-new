@@ -1,0 +1,25 @@
+.header-area .main-header-area .breakpoint-off .classy-navbar a img {
+	width: 150px;
+	height: 120px
+}
+
+.header-area .main-header-area .breakpoint-off .classy-navbar a.logo-non-sticky {
+	width: 150px;
+	height: 120px;
+	display: block;
+	background: url('../img/ceos-img/logo-gray.png');
+	background-size: cover
+}
+
+.header-area .main-header-area.sticky .breakpoint-off .classy-navbar a.logo-non-sticky {
+	background: url('../img/ceos-img/logo-white.png');
+	background-size: cover
+}
+
+.header-area .main-header-area.sticky {
+	background-color: #5b6477;
+}
+
+.header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a {
+	color: #d4d4dc;
+}
